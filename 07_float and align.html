@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" coontent="width=, initial-scale=1.0">
+  <title>float and align</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body{
+       font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4cm;
+    }
+    .clr{
+      clear: both;
+    }
+    .box{
+      background: floralwhite;
+      border: 1px solid grey;
+      padding:10px;
+      margin-bottom:10px;
+    }
+    .container{
+      max-width: 920px;
+      margin: auto;
+      }
+      .box p{
+        /* text align */
+        text-align: right;
+        text-align: center;
+     }
+     #box-1 {
+      float: center;
+      width: 68%;
+     }
+     #box-2 {
+      float: right;
+      width: 30%;
+     }
+      #box-3 {
+      float: left;
+      width: 30%;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="box-1" class="box">
+      <h3>heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nulla.</p>
+    </div>
+    <div id="box-2" class="box">
+      <h3>heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nulla.</p>
+    </div>
+
+    <div id="box-3" class="box">
+      <h3>heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nulla.</p>
+    </div>
+    <div class="clr"></div>
+    <div id="box-4" class="box">
+      <h3>heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nulla.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>box model/margin & padding</title>
+  <style>
+    /* css reset */
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    div,#Box{
+      background-color:white;
+      border: 5px red solid;
+      width: 500px;
+      /* padding all sides */
+      padding: 20px;
+      /* padding per side*/
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+     /* padding shorthand= top,right,bottom,left */
+     padding: 10px 20px 10px 20px;
+     /* padding shorthand = top/bottom left/right */
+     padding: 10px 20px;
+
+      /* margin */
+      margin: 20px;
+      /* margin per side*/
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+     /* margin shorthand= top,right,bottom,left */
+     margin: 10px 20px 10px 20px;
+     /* margin shorthand = top/bottom left/right */
+     margin: 10px 20px;
+  }
+  #Box,h2{
+    padding-bottom: 10px ;
+  }
+  </style>
+</head>
+<body>
+  <div id="BOX">
+    <h2>ABOUT ME</h2>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum quasi officiis, accusantium, soluta exercitationem deserunt perferendis, laborum reiciendis distinctio ipsa harum sapiente neque? 
+    Nisi consectetur cum excepturi iusto?</P>
+  </div>
+  <div id="BOX">
+    <h2>ABOUT</h2>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum quasi officiis, accusantium, soluta exercitationem deserunt perferendis, laborum reiciendis distinctio ipsa harum sapiente neque? 
+    Nisi consectetur cum excepturi iusto?</P>
+  </div>
+</body>
+</html>
